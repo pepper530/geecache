@@ -50,3 +50,15 @@ HTTPPool是http通信的核心数据结构，并为其实现通信核心的Serve
 
 2024-6-23:
 1. 实现singleflight防止缓存击穿（g.load调用时，g.loader.Do()会调用多次）。加了dup属性保证匿名函数fn()只被调用一次。
+
+2024-6-30：
+添加到github仓库：
+在github上创建一个新的repository，注意默认分支最好写master。
+（因为本地 init之后叫main分支，直接提交会自动提交一个新分支main）
+
+1. 本地工程 git init
+2. git add .
+3. git commit -m "first commit"
+4. git remote add origin 远程仓库url地址
+5. git pull origin master 
+6. git push -u origin master 
