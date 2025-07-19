@@ -1,0 +1,23 @@
+
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+
+go.work
+
+.vscode/
+
+# 环境文件
+.env
+*.env
+
+
+debug
+
+# 构建输出
+out/
+
+notes.md
